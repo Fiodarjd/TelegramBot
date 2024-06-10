@@ -7,9 +7,9 @@ internal class UpdateHandler : IUpdateHandler
 {
     public async Task HandleAsync(IBotClient bot, Update update, CancellationToken token)
     {
-        if (update is MessageUpdate u)
+        if (update is MessageUpdate u && u.Data is TextMessage tm)
         {
-            SendText request = new( u.Data.Chat.Id,  "Hello!");
+            SendText request = new( u.Data.Chat.Id,  tm.Text);
 
             Response<TextMessage> response = await bot.HandleAsync(request);
 
