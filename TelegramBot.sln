@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot", "TelegramBot\TelegramBot.csproj", "{40E632AE-8EE3-406E-A0F7-92DEB39C3BEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramBot", "TelegramBot\TelegramBot.csproj", "{40E632AE-8EE3-406E-A0F7-92DEB39C3BEF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PFormsBot", "PFormsBot\PFormsBot.pyproj", "{97C6345C-8FE8-49E4-AECA-686CB2E057EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{40E632AE-8EE3-406E-A0F7-92DEB39C3BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E632AE-8EE3-406E-A0F7-92DEB39C3BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E632AE-8EE3-406E-A0F7-92DEB39C3BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C6345C-8FE8-49E4-AECA-686CB2E057EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C6345C-8FE8-49E4-AECA-686CB2E057EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
